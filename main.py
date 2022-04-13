@@ -9,8 +9,8 @@ import dash_core_components as dcc
 import dash_html_components as html
 
 print(os.getcwd())
-data = pd.read_csv("C:\\Users\\micha\\OneDrive\\Pulpit\\studia\\UAM\\ingeneria_sociedad\\creativo\\creativo_ingeneria_sociedad\\dash_example\\data\\avocado.csv")
-transformed = pd.read_csv("C:\\Users\\micha\\OneDrive\\Pulpit\\studia\\UAM\\ingeneria_sociedad\\creativo\\creativo_ingeneria_sociedad\\dash_example\\data\\transformed.csv")
+data = pd.read_csv("data/avocado.csv")
+transformed = pd.read_csv("data/transformed.csv")
 data["Date"] = pd.to_datetime(data["Date"], format="%Y-%m-%d")
 data.sort_values("Date", inplace=True)
 
