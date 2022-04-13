@@ -43,8 +43,8 @@ app.layout = html.Div(
                     children="Desarollamiento de varios medios de telecomunicacíon", className="header-title"
                 ),
                 html.P(
-                    children="Este app muestra desarollamiento de diferentes aspectos de telecomunicacíon en varios paises. Todos"
-                             " datos son cogidos de World Bank Open Data. Adémas el grafo de GDP deja comparar el desarrolamietento de telecomunicacíón "
+                    children="Este app muestra desarrollo de diferentes aspectos de telecomunicacíon en varios paises. Todos"
+                             " datos son cogidos de World Bank Open Data. Adémas el grafo de GDP deja comparar el desarrollo de telecomunicacíón "
                              "y el desarollamiento de economía",
                     className="header-description",
                 ),
