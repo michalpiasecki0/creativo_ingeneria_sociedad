@@ -40,7 +40,7 @@ app.layout = html.Div(
         html.Div(
             children=[
                 html.H1(
-                    children="Desarollamiento de varios medios de telecomunicacíon", className="header-title"
+                    children="El desarollo de varios medios de telecomunicacíon", className="header-title"
                 ),
                 html.P(
                     children="Este app muestra desarrollo de diferentes aspectos de telecomunicacíon en varios paises. Todos"
